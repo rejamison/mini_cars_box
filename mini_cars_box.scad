@@ -9,8 +9,9 @@ track_length = 120;
 lip_width = 2;
 
 //case();
-translate([0,-55,car_length + 5]) track_straight();
+//translate([-90,0,0]) track_straight();
 track_curved();
+//rotate([0,0,90]) track_curved();
 
 module case() {
     difference() {
